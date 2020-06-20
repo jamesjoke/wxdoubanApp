@@ -1,0 +1,51 @@
+/* pages/home/index.wxss */
+.homeContainer{
+  display: flex;
+  flex-direction: column;
+}
+.searchBox{
+  padding: 20rpx;
+  background-color: #42bd56;
+}
+.searchItem{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  text-align: center;
+  font-size: 30rpx !important;
+  color: #666;
+}
+.movieHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 15rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+.movieMore{
+  color: #42bd56;
+  vertical-align: middle
+}
+.icon-youjiantou{
+  font-size: 26rpx;
+}
+.movie-img{
+  display: flex;
+}
+.movie-list{
+  width: 220rpx;
+  padding: 20rpx;
+}
+.movie-content{
+  width: 220rpx;
+  height: 280rpx;
+  border-radius: 15rpx;
+}
+.movie-title{
+  width: 220rpx;
+  text-align: center;
+}

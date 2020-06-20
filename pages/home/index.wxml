@@ -1,0 +1,29 @@
+<!-- pages/home/index.wxml -->
+<view class="homeContainer">
+  <!-- 搜索 -->
+  <view class="searchBox">
+    <view class="searchItem">
+      <text class="iconfont icon-sousuosearch82">搜索</text>
+    </view>
+  </view>
+  <!-- 内容区 -->
+  <view class="movieContainer">
+    <view class="movieHeader">
+      <view>影院热映</view>
+      <view class="movieMore">
+        查看更多
+        <text class="iconfont icon-youjiantou"></text>
+      </view>
+    </view>
+    <scroll-view class="" scroll-x="true">
+      <view class="movie-img">
+        <view class="movie-list" wx:for="{{comingList}}" wx:key="index">
+          <image class="movie-content" src="{{item.images.large}}"></image>
+          <view class="movie-title">
+            <text class="movie-title">{{item.original_title}}</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
